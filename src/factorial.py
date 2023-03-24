@@ -6,7 +6,7 @@
 #* Creative commons                                                        *
 #*-------------------------------------------------------------------------*
 import sys
-def factorial(num): 
+def factorial(num): #funcion para calcular el factorial
     if num < 0: 
         print("Factorial de un número negativo no existe")
 
