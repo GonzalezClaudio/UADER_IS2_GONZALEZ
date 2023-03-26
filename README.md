@@ -25,4 +25,4 @@
     <li>git push origin (confirmar la carga del archivo al git)</li>
 </ul>
 
-<img src= "D:\Documentos\tercer año 2023\Ing de software II/factorial_n.jpg">
+<img src = "D:\Documentos\tercer año 2023\Ing de software II\factorial_n.jpg">
