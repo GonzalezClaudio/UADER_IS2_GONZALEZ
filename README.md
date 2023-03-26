@@ -6,10 +6,11 @@
    <strong>Lista ordenada</strong> 
 </h2>
 
-<ol>calcular factorial</ol>
-<ol>numero primo</ol>
-<ol>linea</ol>
-<ol>algoritmo</ol>
-
+<ol>
+    <li>calcular factorial</li>
+    <li>numero primo</li>
+    <li>linea</li>
+    <li>algoritmo</li>
+</ol>
 
 
