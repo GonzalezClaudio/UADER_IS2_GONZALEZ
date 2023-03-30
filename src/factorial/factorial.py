@@ -123,8 +123,6 @@ def factorial(num):
 
             print("factorial de" , i ,",", fact )
 
-            
-
 
 if len(sys.argv) == 0:
    print("Debe informar un número!")
