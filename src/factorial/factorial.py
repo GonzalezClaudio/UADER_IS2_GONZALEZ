@@ -5,26 +5,26 @@
 #* Gonzalez Claudio                                                        *
 #* Creative commons                                                        *
 #*-------------------------------------------------------------------------*
-#import sys
-#def factorial(num): 
-#    if num < 0: 
-#        print("Factorial de un número negativo no existe")
+import sys
+def factorial(num): 
+    if num < 0: 
+        print("Factorial de un número negativo no existe")
 
-    #elif num == 0: 
-    #    return 1
+    elif num == 0: 
+        return 1
         
-#    else: 
-#        fact = 1
-#        while(num > 1): 
-#            fact *= num 
-#            num -= 1
-#        return fact 
+    else: 
+        fact = 1
+        while(num > 1): 
+            fact *= num 
+            num -= 1
+        return fact 
 
-#if len(sys.argv) == 0:
-#   print("Debe informar un número!")
-#   sys.exit()
-#num=int(sys.argv[1])
-#print("Factorial ",num,"! es ", factorial(num)) 
+if len(sys.argv) == 0:
+   print("Debe informar un número!")
+   sys.exit()
+num=int(sys.argv[1])
+print("Factorial ",num,"! es ", factorial(num)) 
 
 
 #*-------------------------------------------------------------------------*
@@ -83,50 +83,50 @@
 #inferior “-hasta” calculando entre 1 y el número indicado (ejemplo “-10”), lo
 #mismo para “desde-“ calculando entre el número indicado y 60
 
-import sys
+#import sys
 
 
-def factorial(num): 
-    hasta=int(input(f"ingrese hasta que numero"))
-    desde=int(input(f"ingrese desde que numero"))
-    if (num < 0 and hasta < 0): 
-        print("Factorial de un número negativo no existe o esta fuera de rango")
+#def factorial(num): 
+#    hasta=int(input(f"ingrese hasta que numero"))
+#    desde=int(input(f"ingrese desde que numero"))
+#    if (num < 0 and hasta < 0): 
+#        print("Factorial de un número negativo no existe o esta fuera de rango")
 
-    elif hasta == 0 and desde==0: 
-        return 1
+#    elif hasta == 0 and desde==0: 
+#        return 1
         
-    else: 
-        lista_hasta=[]
-        lista_desde=[]
-        for i in range(1, hasta+1):
-            lista_hasta.append(i)
+#    else: 
+#        lista_hasta=[]
+#        lista_desde=[]
+#        for i in range(1, hasta+1):
+#            lista_hasta.append(i)
                  
-            for num in lista_hasta:
-                fact = 1
+#            for num in lista_hasta:
+#                fact = 1
                 
-                while(num > 1): 
-                    fact *= num 
-                    num -= 1
+#                while(num > 1): 
+#                    fact *= num 
+#                    num -= 1
 
                     
-            print ("Factorial de" , i ," ,", fact)
+#            print ("Factorial de" , i ," ,", fact)
 
-        for i in range(desde,61):
-            lista_desde.append(i)
+#        for i in range(desde,61):
+#            lista_desde.append(i)
 
-            for num in lista_desde:
-                fact = 1
+#            for num in lista_desde:
+#                fact = 1
 
-                while(num > 1):
-                    fact *= num
-                    num -= 1
+#                while(num > 1):
+#                    fact *= num
+#                    num -= 1
 
-            print("factorial de" , i ,",", fact )
+#            print("factorial de" , i ,",", fact )
 
 
-if len(sys.argv) == 0:
-   print("Debe informar un número!")
-   sys.exit()
-num=int(sys.argv[1])
-factorial(num) 
+#if len(sys.argv) == 0:
+#   print("Debe informar un número!")
+#   sys.exit()
+#num=int(sys.argv[1])
+#factorial(num) 
 

@@ -12,8 +12,7 @@ def collatz(num):
         else:
             num = num * 3 + 1
         cont+=1
-        
-        
+            
     return cont 
 
 secuencia = collatz(11)
@@ -24,7 +23,6 @@ y=[]
 for i in range(1,100):
     x.append(i)
     y.append(collatz(i))
-
 
 plt.plot(x, y)
 plt.show()
